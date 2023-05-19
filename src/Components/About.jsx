@@ -1,4 +1,7 @@
 import React from "react";
+import compositionPhoto1 from "../assets/nat-1-large.jpg";
+import compositionPhoto2 from "../assets/nat-2-large.jpg";
+import compositionPhoto3 from "../assets/nat-3-large.jpg";
 
 const About = () => {
   return (
@@ -34,7 +37,25 @@ const About = () => {
             Learn More &rarr;
           </a>
         </div>
-        <div className="about__img-content">IMG</div>
+        <div className="about__img-content">
+          <div className="composition">
+            <img
+              src={compositionPhoto1}
+              alt="composition photo 1"
+              className="composition__photo composition__photo--p1"
+            />
+            <img
+              src={compositionPhoto2}
+              alt="composition photo 2"
+              className="composition__photo composition__photo--p2"
+            />
+            <img
+              src={compositionPhoto3}
+              alt="composition photo 2"
+              className="composition__photo composition__photo--p3"
+            />
+          </div>
+        </div>
       </div>
     </section>
   );
