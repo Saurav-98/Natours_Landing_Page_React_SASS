@@ -10,3 +10,12 @@
 
 - Great workflow to convert px into rem
 - How to BEN method in Practice
+
+## Part - 03
+
+- Thinking about components
+- How and Why to use Utility Classes
+- How to use background clip property
+- how to transform multiple properties simultaneously
+- How to use outline-offset property together with outline
+- How to style elements that are not hovered while others are.
