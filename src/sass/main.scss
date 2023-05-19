@@ -1,7 +1,13 @@
-@import "./partials/variables";
-@import "./partials/animations";
-@import "./partials/typography";
-@import "./partials/elements";
-@import "./partials/general";
+// Variables Css
+@import "./partials/base/variables";
+// Essentials CSS
+@import "./partials/essentials/utilities";
+// Base CSS
+@import "./partials/base/base";
+@import "./partials/base/animations";
+@import "./partials/base/typography";
+// layout
+@import "./partials/essentials/layout";
 
-@import "./partials/Header";
+// Components
+@import "./partials/components/Header";
