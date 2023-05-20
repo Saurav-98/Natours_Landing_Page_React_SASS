@@ -1,0 +1,47 @@
+.features {
+  padding: calc(20rem + 10vh) 0;
+  margin-top: -20vh;
+
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.7),
+      rgba($color-primary-dark, 0.7)
+    ),
+    url(../assets/nat-4.jpg);
+  background-size: cover;
+  height: 100vh;
+  clip-path: polygon(100% 0%, 0% 20vh, 0% 100%, 100% 80vh);
+
+  &__container {
+    max-width: 114rem;
+    margin: 0 auto;
+  }
+  .feature--box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6rem;
+  }
+  .feature {
+    background-color: rgba($color-white, 0.8);
+    font-size: 1.5rem;
+    padding: 3rem 1.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+    transition: all 0.3s ease-in-out;
+
+    &__icon {
+      font-size: 6rem;
+      margin-bottom: 0.5rem;
+      display: inline-block;
+      color: $color-primary;
+    }
+
+    &:hover {
+      transform: translateY(-1rem) scale(1.05);
+    }
+    &__text {
+      font-weight: 500;
+    }
+  }
+}
